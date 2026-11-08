@@ -1,0 +1,22 @@
+# 회사 Studio 원본의 Screen1에 WorkHub PCF를 전체 화면으로 배치합니다.
+Screens:
+  Screen1:
+    Properties:
+      Fill: =RGBA(255, 255, 255, 1)
+      LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Children:
+      - WorkHub1:
+          Control: CodeComponent
+          ComponentName: vibe_VibeStudio.WorkHub
+          Properties:
+            X: =0
+            Y: =0
+            Width: =Parent.Width
+            Height: =Parent.Height
+            DisplayMode: =DisplayMode.Edit
+            Visible: =true
+            TabIndex: =0
+            Tooltip: ="WorkHub 통합 업무 허브"
+            userName: ="김민서"
+            readOnly: =false
+            OnChange: =false

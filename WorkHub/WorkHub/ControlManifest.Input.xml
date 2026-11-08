@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="VibeStudio" constructor="WorkHub" version="1.0.0" display-name-key="WorkHub 통합 업무 허브" description-key="프로젝트, IT 서비스, 구매 승인 시연용 통합 워크스페이스" control-type="standard">
+    <external-service-usage enabled="false" />
+    <property name="userName" display-name-key="데모 사용자명" description-key="시연 화면에 표시할 가상 사용자명" of-type="SingleLine.Text" usage="input" required="false" default-value="김민서" />
+    <property name="readOnly" display-name-key="읽기 전용" description-key="참이면 등록 및 수정 액션을 렌더링하지 않습니다. 실제 인증 기능이 아닙니다." of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="selectedId" display-name-key="선택한 업무 ID" description-key="상세 화면에서 선택한 업무 식별자" of-type="SingleLine.Text" usage="output" />
+    <resources><code path="index.ts" order="1" /><css path="css/WorkHub.css" order="1" /></resources>
+  </control>
+</manifest>

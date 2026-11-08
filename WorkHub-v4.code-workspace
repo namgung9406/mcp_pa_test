@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "WorkHub",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/obj": true,
+      "**/out": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/obj": true,
+      "**/out": true
+    }
+  }
+}

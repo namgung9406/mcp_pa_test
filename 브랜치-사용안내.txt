@@ -1,0 +1,33 @@
+WorkHub 팀 브랜치
+
+저장소: https://github.com/namgung9406/mcp_pa_test
+
+main: 공통 기준 코드
+이승우: 이승우 작업 브랜치
+윤대진: 윤대진 작업 브랜치
+이형대: 이형대 작업 브랜치
+
+VS Code에서 선택
+1. WorkHub-VSCode 폴더 또는 WorkHub-v4.code-workspace를 엽니다.
+2. 왼쪽 아래 상태 표시줄의 현재 브랜치 이름(main 등)을 클릭합니다.
+3. 이승우 / 윤대진 / 이형대 중 원하는 브랜치를 선택합니다.
+4. 상태 표시줄의 이름이 선택한 브랜치로 바뀌었는지 확인합니다.
+
+명령 팔레트에서도 Ctrl+Shift+P → Git: Checkout to...를 실행해 선택할 수 있습니다.
+세 브랜치는 처음에 같은 코드로 시작하며, 이후 각 브랜치에 커밋한 변경이 구분됩니다.
+브랜치를 바꾸기 전 진행 중인 변경은 커밋하거나 스태시로 보관하세요.
+
+터미널에서 선택
+git switch 이승우
+git switch 윤대진
+git switch 이형대
+git switch main
+
+다른 PC에서 처음 받기
+git clone https://github.com/namgung9406/mcp_pa_test.git
+cd mcp_pa_test
+git switch --track origin/이승우
+
+이름은 본인의 브랜치 이름으로 바꾸면 됩니다.
+이후 커밋을 GitHub에 반영할 때는 git push를 실행합니다.
+브랜치 생성은 공동 작업자 초대나 저장소 쓰기 권한 부여와 별개입니다.

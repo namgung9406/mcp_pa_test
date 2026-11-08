@@ -1,0 +1,11 @@
+{
+  "AppName": "WorkHub 업무 허브 DEV v3",
+  "BackgroundColor": "RGBA(16,43,54,1)",
+  "PublishTarget": "player",
+  "LogoFileName": "",
+  "IconColor": "RGBA(123,219,192,1)",
+  "IconName": "Edit",
+  "PublishResourcesLocally": false,
+  "PublishDataLocally": false,
+  "UserLocale": "ko-KR"
+}
